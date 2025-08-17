@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header bg-dark text-white p-3">
+        <h2 class="mb-0">CANDIDATE'S INFORMATION FORM</h2>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-8">
+                        <label class="form-label">Post Applied for</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="photo-box">Affix Photograph</div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Candidate's Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Father's Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Caste</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Religion</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Address</label>
+                    <textarea class="form-control" rows="2"></textarea>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="form-label">Mobile No.</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-label">E-Mail</label>
+                        <input type="email" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="form-label">Martial Status</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-label">Blood Group</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="form-label">Pan Card No</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-label">Aadhar Card No</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Emergency Contact no</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <h5 class="mt-4">Family Details</h5>
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Name</th>
+                            <th>Relation</th>
+                            <th>Profession</th>
+                            <th>Age</th>
+                            <th>Dependent (Y/N)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h5 class="mt-4">Education Qualification</h5>
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Standard</th>
+                            <th>Board/University</th>
+                            <th>Main Subject</th>
+                            <th>Year of Passing</th>
+                            <th>Percentage/Division</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                            <td><input class="form-control"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mb-3">
+                    <label class="form-label">Purusing any course currently (Part/Full Time)</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">How did you come to know about our organization?</label>
+                    <textarea class="form-control" rows="2"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
