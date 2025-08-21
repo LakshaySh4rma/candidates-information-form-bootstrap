@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(135deg, rgb(188, 231, 246), rgb(126, 216, 246), #94b2c6);
+  background: rgb(228, 228, 228);
+}
+
+.form-title {
+  color: #B32025;
 }
 
 
@@ -7,42 +11,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
-  background: #3765ab;
+  background: linear-gradient(to right, #4a0d0d, #b00d0d);
   padding: 15px;
   color: white;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .header img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+  margin-left: 0.5rem;
 }
 
-.photo-box {
-  width: 120px;
-  height: 150px;
-  border: 1px dashed #555;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  color: black;
-  margin: auto;
-}
 
 .form-container {
   padding: 30px;
-  background: rgb(228, 237, 243);
+  background: white;
   border-radius: 15px;
   margin-top: 50px;
   box-shadow: 0, 10px, 25px, rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease-in-out;
+  border-color: black;
 }
 
 label {
@@ -53,15 +46,24 @@ label {
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.2),
-    inset -2px -2px 6px rgba(255, 255, 255, 0.7);
-  transition: all 0.2s ease-in-out;
+  border-color: rgb(214, 214, 21);
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 10px 42px;
   font-weight: 600;
   border-radius: 10px;
-  box-shadow: 0 6px #0a58ca;
-  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.footer-logo {
+  height: 100px;
+  
+}
+
+.footer {
+  background: linear-gradient(to right, #4a0d0d, #b00d0d);
+  color: white;
+  padding: 40px 20px;
+  gap: 10px;
 }
